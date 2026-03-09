@@ -1,6 +1,5 @@
 // Javascript 1
 
-
 // A cosa serve JS?
 
 // Offre una maggiore interattività con gli oggetti del DOM(Broswer).
@@ -25,10 +24,7 @@
 
 // <script src=""></script>
 
-
-----
-
-i commenti su singola riga si lasciano con il doppio slash //
+// i commenti su singola riga si lasciano con il doppio slash //
 
 /* i commenti su più righe si commentano come in CSS cioè  questo è un commento */
 
@@ -38,7 +34,9 @@ i commenti su singola riga si lasciano con il doppio slash //
 
 // un algoritmo è formato da variabili, le variabili si iniziano a scrivere con "let"
 
-// ogni variabile deve avere un nome subito dopo let, il nome della var non può iniziare con un numeri. ma può stare dopo la parola iniziale. non usare simboli speciali. nel caso di una var con più nomi si mette il capitalize ad ogni parola dopo la prima (camel case). I trattini alti non vanno bene. I trattini bassi _ vanno bene, ma è sconsigliato come formattazione del nome.
+// ogni variabile deve avere un nome subito dopo let, il nome della var non può iniziare con un numeri. ma può stare dopo la parola iniziale.
+// non usare simboli speciali. nel caso di una var con più nomi si mette il capitalize ad ogni parola dopo la prima (camel case).
+// I trattini alti non vanno bene. I trattini bassi _ vanno bene, ma è sconsigliato come formattazione del nome.
 
 let bacinella /*Singolo nome*/
 
@@ -62,6 +60,8 @@ bacinella = 110
 // un altro tipo di dato sono le stringhe, ovvero testo puro
 
 altraBacinella = "zucchero"
+// la stessa variabile può essere riassegnata ad un altro valore
+altraBacinella = "fornaciari"
 
 // le stringhe si scrivono tra virgolette "" oppure tra apostrofi ''
 
