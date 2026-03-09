@@ -90,3 +90,7 @@ let varDichiarata = 30 // Questo non va bene
 // se invece voglio creare una variabile non RI-ASSEGNABILE devo usare const
 
 const varCostante = 10 // Questa variabile non può essere riassegnata
+
+// Le variabili create con const hanno bisogno di avere una valore dichiarata fin da subito, altrimenti non saranno utilizzabili
+
+const useless // Questa cosa non sia fa
