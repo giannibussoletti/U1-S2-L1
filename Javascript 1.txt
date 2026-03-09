@@ -1,0 +1,33 @@
+Javascript 1
+
+
+A cosa serve JS?
+
+Offre una maggiore interattività con gli oggetti del DOM(Broswer).
+
+JS si occupa dell'interattività alle pagine, far funzionare per esempio i bottoni.
+
+Javascript è l'unico linguaggio di programmazione che il broswer sa interpretare.
+
+è un linguaggio lato client, gira nel computer dell'utente finale.
+
+Negli ultimi anni è diventato un anche un linguaggio lato server, con tecnologie come Node.js
+
+JS è il terzo pilastro delle pagine web dopo HTML e CSS.
+
+i JS possono essere scritti in file esterni e collegati come i file CSS.
+
+Così come per i file CSS, anche per i file JS è conveniente fare una cartella a parte.
+
+i link dei fogli JS vanno inseriti alla fine della sezione Body.
+
+il tag che si usa è <script></script> si usa un attributo src="" quindi:
+
+<script src=""></script>
+
+
+----
+
+i commenti su singola riga si lasciano con il doppio slash //
+
+i commenti su più righe si commentano come in CSS cioè /* questo è un commento */
