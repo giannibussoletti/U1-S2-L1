@@ -105,6 +105,12 @@ console.log(diffName)
 // Per dimostrare invece che le due stringhe sarebbero identiche se fossero entrambi lowercase ho trovato questa soluzione
 
 sameName2 = name1 === name2.toLowerCase()
-console.log(sameName2)
+console.log(
+  "sameName da come risultato",
+  sameName,
+  "perché le variabili da cui è composto differiscono di una lettera (jonh var1 e Jon var2). Ma  una nuova variabile dal nome sameName2 da come risultato",
+  sameName2,
+  "perché var2 viene messo tutto in lowercase grazie alla dichiarazione .toLowerCase()",
+)
 
 //In questo caso il comando .toLowerCase() rende temporaneamente John con la maiuscola, una parola tutta in minuscolo. Andando a confermare che le variabili sarebbero identiche se tutte e due fossero minuscole.
