@@ -85,7 +85,7 @@ let dichiaraVar = 10 //
 dichiaraVar = 20 // Questo va bene
 
 let varDichiarata = 10
-let varDichiarata = 30 // Questo non va bene
+// let varDichiarata = 30 // Questo non va bene
 
 // se invece voglio creare una variabile non RI-ASSEGNABILE devo usare const
 
@@ -93,4 +93,22 @@ const varCostante = 10 // Questa variabile non può essere riassegnata
 
 // Le variabili create con const hanno bisogno di avere una valore dichiarata fin da subito, altrimenti non saranno utilizzabili
 
-const useless // Questa cosa non sia fa
+// const useless // Questa cosa non sia fa perché la variabile sarà non utilizzabile
+
+// TIPI DI DATO SEMPLICI (CHIAMATI PRIMITIVI) IN JS
+// - number -> 0, 1, -5 1000, 12.34 se c'è una virgola va sostituito con il punto quindi non 10,10 ma 10.10
+let numeroVar = 10
+/* - string -> "stefano" "gianni" "latte&miele" (stringa vuota)"" o anche con il numero al suo interno "doggo10"
+ delimitati con '' - "" - `` <--  quest'ultimo anche è un delimitatore e lo si può richiamare con alt+96 */
+let stringaVar = "dichiarazione di stringa"
+// - boolean -> true, false
+let varBooleana = 10 < 5 // il risultato sarà false
+varBooleana = true // Sia true che false sono proprio dichiarazioni non stringhe
+varBooleana = false
+
+// - undefined -> valore non definito
+let varUn // Il valore di una variabile che non è stato dichiarato
+// diventa automaticamente undefined
+
+// - null -> assenza esplicità di valore, variabile VUOTA
+let varVuota = null
