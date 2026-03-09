@@ -103,3 +103,17 @@ console.log("valore di x dopo riassegnazione", x)
 console.log("valore di z dopo riassegnazione di x", z)
 console.log("Verifico il tipo di var dichiarata(z):", typeof z, z)
 //typeof seguito dalla variabile fa capire che tipo di variabile è
+
+// OPERAZIONI MATEMATICHE IN JS
+let aa = 6 + 3 // 9
+let bb = 10 - 6 // 4
+let cc = 5 * 5 // 25
+let dd = cc / 5 // 5
+let ee = aa + bb // 13
+
+let ff = ee % 10 // OPERATORE MODULO -> da come risultato il resto del numero
+let gg = 10 % 3 // in questo caso il 3 nel 10 ci sta 3 volte
+// quindi il risultato sarà 1 perché è il resto che manca per arrivare a 10
+
+// numeri particolari - > 0, -0, +infinity -infinity, NaN (Not A Number)
+console.log(50 / "Stefano") // Risultato Nan
