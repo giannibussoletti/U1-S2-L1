@@ -89,7 +89,8 @@ let varVuota = null
 let x = 5
 let y = 7
 let z = x //<-- in questo caso la var z richiama lo stesso valore della var x, quindi z vale 5
-
+console.log("valore di x iniziale", x)
+console.log("valore di z iniziale", z)
 x = 50
 // anche se in questa riga poi richiamo la variabile z, questa continuerà sempre a valere 5
 // perché z quando è stata dichiarata ha preso il valore della prima dichiarazione di x
@@ -97,4 +98,8 @@ x = 50
 let addXY = x + y // questa è un'addizione, quindi addXY vale 13
 
 // Come facciamo a scoprire il lavore di una variabile? si usa console.log()
-console.log(z)
+// dentro la parentesi si possono mettere più valori, vanno divisi da una virgola
+console.log("valore di x dopo riassegnazione", x)
+console.log("valore di z dopo riassegnazione di x", z)
+console.log("Verifico il tipo di var dichiarata(z):", typeof z, z)
+//typeof seguito dalla variabile fa capire che tipo di variabile è
