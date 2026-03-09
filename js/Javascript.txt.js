@@ -116,4 +116,76 @@ let gg = 10 % 3 // in questo caso il 3 nel 10 ci sta 3 volte
 // quindi il risultato sarà 1 perché è il resto che manca per arrivare a 10
 
 // numeri particolari - > 0, -0, +infinity -infinity, NaN (Not A Number)
-console.log(50 / "Stefano") // Risultato Nan
+console.log(50 / "Stefano") // Risultato NaN
+console.log(aa, bb, cc, dd, ee, ff, gg)
+
+// OPERATORE + SULLE STRINGHE
+const longString = "Ciao Mamma, guarda come mi diverto " + "col Javascript"
+console.log("Valore di longString", longString) // Gli spazi fanno parti delle strighe
+const StringNoSpace = "Non" + "Ci" + "Sono" + "Spazi"
+console.log("Questa Stringa non ha spazi perché nella variabile non ci sono", StringNoSpace)
+
+const numberString = 40 + "60" // darà 4060 perché i numeri se sono addizionati ad una stringa
+// vengono automaticamente convertiti in stringa.
+console.log(numberString)
+
+// OPERATORI DI COMPARAZIONE
+// < Minore di
+// > Maggiore di
+// <= Minore uguale di
+// ! not
+// === Uguale a
+// !== Diverso da
+
+let qq = 4
+let ww = 6
+
+console.log(qq < ww) //4 < 6 --> true
+console.log(qq > ww) //4 > 6 --> false
+console.log(qq <= ww) //4 <= 6 --> true
+console.log(qq >= ww) //4 >= 6 --> false
+console.log(qq === ww) //4 === 6 --> false
+console.log(qq !== ww) //4 !== 6 --> true
+
+let rr = 50
+let tt = "50"
+
+let uguali = rr === tt // false, perchè nonostante il VALORE sia uguale, il TIPO è diverso!
+let nonUsatelo = rr == tt // true, perchè il == controlla il VALORE ma NON il TIPO!
+//il == è sconsigliato perché da devi falsi positivi
+
+const valore = 4 < 5 // true
+console.log(
+  "Questo log usa ! che serve ad invertire il valore del booleano",
+  "Valore senza !",
+  valore,
+  "Valore con !",
+  !valore,
+) //! inverte il significato del risultato nel booleano
+// quindi uscirebbe FALSE
+
+// OPERATORI LOGICI: AND (&&) e OR (||)
+let belTempo = true
+let macchinaAPosto = false
+
+// l'operatore AND serve a valutare complessivamente 2 o più condizioni per ottenere un unico risultato finale
+// l'opeartore AND restituisce TRUE tra 2 o più condizioni SOLAMENTE se ENTRAMBE sono TRUE
+let vadoAlMare = belTempo && macchinaAPosto // -> true && false -- > false
+// SPECCHIETTO AND &&
+// true && true -> true
+// true && false -> false
+// false && true -> false
+// false && false -> false
+
+// Operatore OR serve a valutare complessivamente 2 o più condizioni per ottenere un unico risultato
+// l'operatore OR restituisce TRUE anche SE SOLO UNA delle condizioni vale TRUE
+
+let hoMacchina = false
+let hoBici = true
+
+let tornoACasa = hoMacchina || hoBici // true
+
+// true || true -> true
+// true || false -> true
+// false || true -> true
+// false || false -> false
