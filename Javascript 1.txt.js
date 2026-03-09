@@ -38,6 +38,8 @@
 // non usare simboli speciali. nel caso di una var con più nomi si mette il capitalize ad ogni parola dopo la prima (camel case).
 // I trattini alti non vanno bene. I trattini bassi _ vanno bene, ma è sconsigliato come formattazione del nome.
 
+// LET permette di creare una variabile RI-ASSEGNABILE
+
 let bacinella /*Singolo nome*/
 
 // nomenclatura camelCase
@@ -76,3 +78,15 @@ altraBacinella = 5 /* adesso la variabile contiene un valore numerico ma è scon
 // Le variabili dichiarate con LET possono avere subito un valore assegnato
 
 let variabileDichiarataSubitoConValoreGiaAssegnato = 10
+
+// Le variabili vanno dichiarate con let solo quando si creano ma per cambiarne il valore basta richiamare il suo nome
+
+let dichiaraVar = 10 //
+dichiaraVar = 20 // Questo va bene
+
+let varDichiarata = 10
+let varDichiarata = 30 // Questo non va bene
+
+// se invece voglio creare una variabile non RI-ASSEGNABILE devo usare const
+
+const varCostante = 10 // Questa variabile non può essere riassegnata
