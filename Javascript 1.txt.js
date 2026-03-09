@@ -72,3 +72,7 @@ altraBacinella = "fornaciari"
 // per esempio:
 
 altraBacinella = 5 /* adesso la variabile contiene un valore numerico ma è sconsigliato*/
+
+// Le variabili dichiarate con LET possono avere subito un valore assegnato
+
+let variabileDichiarataSubitoConValoreGiaAssegnato = 10
